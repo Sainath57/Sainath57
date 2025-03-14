@@ -1,0 +1,35 @@
+.Home {
+    padding-top: 160px;
+    padding-bottom: 120px ;
+}
+
+.profilepic-container {
+    text-align: center;
+}
+
+.profilePic {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 8px solid #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profilePic:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.ps {
+    text-align: center;
+    color: #1df2ff;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Apple Symbols";
+}
+
+.ps1 .ps2 {
+
+}

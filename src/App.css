@@ -1,0 +1,48 @@
+/* src/App.css */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-image: url("../public/images/background-pic3.mp4");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Header styling */
+
+
+/* Section styling */
+/*section {
+  padding: 60px 20px;
+  margin: 20px 0;
+}*/
+.header-section,
+.about-section,
+.projects-section,
+.contact-section {
+  padding-top: 120px;
+  /*background-color: antiquewhite;*/
+}
+
+/* Projects section */
+.project-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.project-card {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 300px;
+  margin: 10px;
+}
