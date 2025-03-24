@@ -13,7 +13,7 @@ function Home() {
                     <br/>
                     <p className="intro2">Software Engineer | Java Full Stack Developer | DevOps Engineer</p>
                     <br/>
-                    <p className="intro3">Pleasure to have your here!</p>
+                    {/*<p className="intro3">Pleasure to have you here!</p>*/}
                     <br/>
                     <div className="platform-icons">
                         <a className="resume-icon">
