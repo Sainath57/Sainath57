@@ -1,0 +1,13 @@
+.intro {
+    #text-align: center;
+    flex: 2;
+    justify-content: center;
+    color: #d87e24;
+    font-weight: bold;
+    font-size: 30px;
+    #padding-right: 50px;
+}
+
+.intro1 h1{
+    #color: white;
+}

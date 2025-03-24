@@ -3,16 +3,27 @@
     padding-bottom: 120px ;
 }
 
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 40px;
+}
+
 .profilepic-container {
-    text-align: center;
+    #text-align: left;
+    display: flex;
+    justify-content: center;
+    flex: 1;
 }
 
 .profilePic {
-    border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    border-radius: 25%;
+    width: 600px;
+    height: 600px;
     object-fit: cover;
-    border: 8px solid #fff;
+    #border: 2px solid #fff;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -22,12 +33,44 @@
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 
+.intro {
+    #text-align: center;
+    color: white;
+    flex: 2;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    #padding-right: 50px;
+}
+
+.intro1{
+    #color: white;
+    color: #d87e24;
+    font-weight: bold;
+    font-size: 70px;
+}
+.intro1 sub{
+    font-size: 30px;
+    color: white;
+}
+
+.platform-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.linkedin-icon .X-icon .github-icon .gmail-icon .resume-icon{
+
+}
+
 .ps {
     text-align: center;
     color: #1df2ff;
     font-size: 40px;
     font-weight: bold;
-    font-family: "Apple Symbols";
+    font-family: "Apple Symbols", serif;
 }
 
 .ps1 .ps2 {
