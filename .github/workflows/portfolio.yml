@@ -1,1 +1,16 @@
+name: myPortfolio
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    container: react-latest
+
+    steps:
+      - run: npm build
+      - run: npm run deploy
 

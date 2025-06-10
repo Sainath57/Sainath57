@@ -25,7 +25,9 @@ html, body {
   margin: 20px 0;
 }*/
 .header-section,
-.about-section,
+.Home,
+.About,
+.Skills,
 .projects-section,
 .contact-section {
   padding-top: 120px;

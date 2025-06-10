@@ -1,0 +1,23 @@
+.footer {
+    padding-top: 160px;
+    padding-bottom: 120px ;
+}
+
+.ps {
+    text-align: center;
+    color: #1df2ff;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Apple Symbols", serif;
+}
+
+.ps1 .ps2 {
+
+}
+
+.footer-container{
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}

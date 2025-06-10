@@ -1,13 +1,9 @@
 // src/components/About.js
 import React from 'react';
 
-const About = () => {
+function About() {
     return (
-        <section id="about" className="about-section">
-            <h2>About Me</h2>
-            <p>
-                Hi, I'm Sainath. I'm a student passionate about building web applications using ReactJS.
-            </p>
+        <section id="about-id" className="About">
             <div className="intro">
                 <p className="intro1"><h1>Welcome to Sainath's Portfolio !</h1></p>
                 <p className="intro2">Sainath Talakanti, commonly known as Sainath is Master's Student majoring in
@@ -20,6 +16,6 @@ const About = () => {
             </div>
         </section>
     );
-};
+}
 
 export default About;
