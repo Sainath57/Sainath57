@@ -1,0 +1,10 @@
+.contact {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.name .email .message {
+    font-size: large;
+    color: orange;
+}

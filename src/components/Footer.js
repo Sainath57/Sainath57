@@ -11,7 +11,7 @@ function Footer() {
             </div>
             <div className={"footer-container"}>
                 <div className="copyright">
-                    <p>2025</p>
+                    <img width="24" height="24" src="https://img.icons8.com/emoji/48/copyright-emoji.png" alt="copyright-emoji"/>Copyright 2025 Sainath Talakanti
                 </div>
             </div>
         </div>

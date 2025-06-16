@@ -1,15 +1,20 @@
 // src/components/Contact.js
 import React from 'react';
 
-const Contact = () => {
+function Contact() {
     return (
-        <section id="contact" className="contact-section">
-            <h2>Contact Me</h2>
-            <p>
-                You can reach me at <a href="mailto:sainath@example.com">sainath@example.com</a>.
-            </p>
-        </section>
+        <div className="contact">
+            <div className="name">
+                Full Name: <input placeholder="Type yuor name here..." />
+            </div>
+            <div className="email">
+                Email: <input placeholder="typeemail@email.com" />
+            </div>
+            <div className="message">
+                Massage: <input placeholder="Type your message here..." />
+            </div>
+        </div>
     );
-};
+}
 
 export default Contact;
