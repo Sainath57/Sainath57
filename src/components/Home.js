@@ -1,13 +1,15 @@
 import React from "react";
 import "./Home.css"
+//import portfolioData from "../../portfolioData.json";
 
 function Home() {
 
-    const mailid = "sainathtalakanti09@gmail.com"
+    //const mailid = portfolioData.gmails[0]
+    const mailid = "www.sainathtalakanti09@gmail.com";
     const linkedin = "https://linkedin.com/in/sainathtalakanti//"
     const xUsername = "https://x.com/sainathtreddy"
     const github = "https://github.com/Sainath57"
-    const resume = "Resumes/Sainath_Resume(SEDE).pdf"
+    const resume = "Resumes/Sainath__Resume.pdf"
     const phoneNumber = "+17635686663"
 
     return (

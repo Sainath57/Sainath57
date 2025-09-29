@@ -25,10 +25,11 @@
     #background-color: gray;
     #padding: 108px 278px;
 }
-
-.icons-container.* {
+/*
+.icons-container {
     width: 80px;
-    height: 80px;
+    //height: 80px;
     object-fit: contain;
     transition: transform 0.3s ease-in-out;
 }
+ */
