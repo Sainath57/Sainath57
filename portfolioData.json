@@ -1,164 +1,423 @@
 {
-  "main": {
-    "name" : "Sainath R. Talakanti",
-    "description" : "MS in Computer Science Student",
-    "image" : "profilePic.jpg",
-    "bio" : "A dedicated Computer Science Graduate Student at the University of Georgia, with a passion for software development and cutting-edge technologies. My skill set includes proficiency in Java, Python, C, ReactJS, and Kotlin, alongside a strong foundation in areas like:\n\nKnowledge Graphs & Graph Databases\nArtificial Intelligence & Machine Learning\nCloud Computing, Docker, Kubernetes\nComputer Vision & Image Processing\nConvolutional & Deep Neural Networks\nDistributed Computing Systems & Data Science\n\nIn addition to these, I'm experienced with web technologies such as HTML, CSS, JavaScript, React JS, and databases like Neo4j, MySQL, and PostgreSQL.\n\nI thrive in both team-based environments and independent projects, always focused on continuous learning and growth. I believe that mistakes are part of the learning journey, and I embrace them as opportunities to improve.\n\nI am actively seeking Internship, Co-op and Full-time opportunities for Software Developer/Engineer roles, DevOps Engineer roles, Data Scientist roles where I can apply my skills and contribute meaningfully while continuously learning and adapting to new technologies. I am eager to collaborate with like-minded professionals in the IT sector to drive impactful projects.",
-    "contactMessage" : "Reach out to me here...",
-    "email" : "sainathtalakanti09@gmail.com",
-    "phone" : "xxx-xxx-xxxx",
-    "github" : "https://github.com/Sainath57",
-    "linkedin" : "https://www.linkedin.com/in/sainathtalakanti/",
-    "about": {
-      "bio": "Experienced Full Stack Developer skilled in ReactJS, Spring Boot, MongoDB, and more. I've contributed to projects at Sephora, Agricultural Sciences UGA, and Quanteon Solutions, focusing on performance optimization and secure platform development.",
-      "tutor": "I am a passionate tutor who loves to share my knowledge in a simple and explainable way. I believe that making complex topics easy to understand is key to helping students succeed, and I enjoy seeing them grow and learn.",
-      "sportsAndEvents": "I’m passionate about sports and enjoy playing all kinds of games. I also participate in various events, and I'm always open to joining new activities. If you're interested in collaborating or joining me for sports, feel free to reach out",
-      "collaborationMessage": "I'm always open to new ideas and collaboration. Reach out to me if you want to discuss your ideas at",
-      "emailLink": "sainathtalakanti09@gmail.com"
+  "names": ["Sainath Talakanti", "Sainath Reddy Talakanti", "SRT", "Sainath R. Talakanti"],
+  "contactInfo": {
+    "gmails": ["sainathtalakanti09@gmail.com", "sainath22042002@gmail.com"],
+    "phoneNumer": "+17635686663"
+  },
+  "personalInfo": {
+    "profilePhoto": "",
+    "gender": ["Male", "M"],
+    "pronouns": "he/him/his",
+    "Bio": "",
+    "languages": ["Telugu","English","Hindi"]
+  },
+  "profile": {
+    "tabLogo": "",
+    "websiteLogo": "",
+    "Others": ""
+  },
+  "profilePages": {
+    "linkedin": "https://www.linkedin.com/in/sainathtalakanti",
+    "linkedinLogo": "",
+    "github": "https://www.github.com/Sainath57",
+    "githubLogo": "",
+    "xTwitter": "https://www.x.com/sainathtreddy",
+    "xTwitterLogo": "",
+    "website": "https://www.sainathtalakanti.com",
+    "UGA/meritPages": "https://www.meritpages.com",
+    "resume": "Resumes/",
+    "resumeLogo": ""
+  },
+  "Address": {
+    "Line1": "329 Dearing St Apt 28A",
+    "Line2": "",
+    "county": "Clarke",
+    "city": "Athens",
+    "state": "GA",
+    "country": "USA"
+  },
+  "Education": [
+    {
+      "UniversityName": "The University of Georgia",
+      "Degree": "Master of Science",
+      "Major": "Computer Science",
+      "CGPA": "3.44",
+      "scale": "4.0",
+      "from": "August 2023",
+      "to": "May 2025",
+      "Location": "Athens, GA",
+      "UniversityLogo": ""
     },
-    "address": {
-      "street": "(Your Street)",
-      "city": "Athens",
-      "state": "GA",
-      "zip": "30605"
+    {
+      "UniversityName": "Jawaharlal Nehru Technological University, Hyderabad",
+      "AffliationName": "Guru Nanak Institutions Technical Campus",
+      "Degree": ["Bachelor of Technology", "Bachelor of Science"],
+      "Major": ["Computer Science & Engineering","Computer Science"],
+      "CGPA": "8.19",
+      "scale": "10.0",
+      "from": "August 2019",
+      "to": "July 2023",
+      "Location": "Hyderabad, India",
+      "UniversityLogo": "",
+      "AffliationLogo": ""
     },
-    "website": "http://sainathtalakanti.com",
-    "resumeDownload": "http://sainathtalakanti.com",
-    "social": [
+    {
+      "InstitutionName": "",
+      "MatriculationType": "High School",
+      "Marks": "",
+      "from": "",
+      "to": ""
+    },
+    {
+      "InstitutionName": "",
+      "MatriculationType": "",
+      "Marks": "",
+      "from": "",
+      "to": ""
+    }
+  ],
+  "Experience": [
+    {
+      "name": "Abe Scott Enterprises LLC",
+      "position": "Application Developer Intern",
+      "location": "Atlanta, GA (Remote)",
+      "from": "July 2025",
+      "to": "Present",
+      "Technologies": ["React Native","Node.js","Supabase", "RESTful APIs", "Agile", "Git"],
+      "TechLogos": [],
+      "duties": "",
+      "Github": "",
+      "Other": "",
+      "logo":""
+    },
+    {
+      "name": "The University of Georgia",
+      "position": "Research Assistant",
+      "location": "Athens, GA",
+      "from": "August 2024",
+      "to": "May 2025",
+      "Technologies": ["Java","Maven","Neo4j","Python","Data Science"],
+      "TechLogos": [],
+      "duties": "",
+      "Github": "",
+      "Other": "",
+      "logo":""
+    },
+    {
+      "name": "Virtusa",
+      "position": "Software Developer Intern",
+      "location": "Hyderabad, India",
+      "from": "January 2023",
+      "to": "April 2023",
+      "Technologies": ["React", "Node.js", "RESTful APIs"],
+      "TechLogos": [],
+      "duties": "",
+      "Github": "",
+      "Other": "",
+      "logo":""
+    },
+    {
+      "name": "RAM Innovative Infotech",
+      "position": "Full Stack Developer Intern",
+      "location": "Hyderabad, India",
+      "from": "September 2022",
+      "to": "July 2023",
+      "Technologies": ["Java","JSP","Spring Boot","MySQL","Cloud"],
+      "TechLogos": [],
+      "duties": "",
+      "Github": "",
+      "Other": "",
+      "logo":""
+    }
+  ],
+  "Projects": [
+    {
+      "Title": "",
+      "from": "",
+      "to": "",
+      "Github": "",
+      "Technologies": "",
+      "duties": "",
+      "Other": "",
+      "photo": ""
+    },
+    {
+      "Title": "",
+      "from": "",
+      "to": "",
+      "Github": "",
+      "Technologies": "",
+      "duties": "",
+      "Other": "",
+      "photo": ""
+    },
+    {
+      "Title": "",
+      "from": "",
+      "to": "",
+      "Github": "",
+      "Technologies": "",
+      "duties": "",
+      "Other": "",
+      "photo": ""
+    },
+    {
+      "Title": "",
+      "from": "",
+      "to": "",
+      "Github": "",
+      "Technologies": "",
+      "duties": "",
+      "Other": "",
+      "photo": ""
+    },
+    {
+      "Title": "",
+      "from": "",
+      "to": "",
+      "Github": "",
+      "Technologies": "",
+      "duties": "",
+      "Other": "",
+      "photo": ""
+    },
+    {
+      "Title": "",
+      "from": "",
+      "to": "",
+      "Github": "",
+      "Technologies": "",
+      "duties": "",
+      "Other": "",
+      "photo": ""
+    },
+    {
+      "Title": "",
+      "from": "",
+      "to": "",
+      "Github": "",
+      "Technologies": "",
+      "duties": "",
+      "Other": "",
+      "photo": ""
+    },
+    {
+      "Title": "",
+      "from": "",
+      "to": "",
+      "Github": "",
+      "Technologies": "",
+      "duties": "",
+      "Other": "",
+      "photo": ""
+    }
+  ],
+  "Technologies": {
+    "programmingLanguages": [
       {
-        "name": "twitter",
-        "url": "https://x.com/sainathtreddy",
-        "className": "fa fa-twitter"
+        "name": "",
+        "logo": ""
       },
       {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/sainathtalakanti/",
-        "className": "fa fa-linkedin"
+        "name": "",
+        "logo": ""
       },
       {
-        "name": "github",
-        "url": "https://github.com/Sainath57",
-        "className": "fa fa-github"
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      }
+    ],
+    "webMobileDev": [
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      }
+    ],
+    "databases": [
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      }
+    ],
+    "frameworksLibraries": [
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      }
+    ],
+    "cloudDevOps": [
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      }
+    ],
+    "devToolsMethodologies": [
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
+      },
+      {
+        "name": "",
+        "logo": ""
       }
     ]
   },
-  "resume": {
-    "education": [
-      {
-        "school": "University of Georgia",
-        "degree": "Master's in Computer Science",
-        "graduated": "Aug 2023 - Present",
-        "description": "GPA: 3.45/4.0"
-      },
-      {
-        "school": "Guru Nanak Institutions Technical Campus",
-        "degree": "Bachelor's in Computer Science",
-        "graduated": "Aug 2019 - Jul 2023",
-        "description": "GPA: 3.49/4.0"
-      }
-    ],
-    "work": [
-      {
-        "company": "Virtusa",
-        "title": "Student Intern",
-        "years": "Jan 2023 - Apr 2023",
-        "description": "Developed and implemented new UI screens using React with a Spring Boot backend for BlueYonder WMS, integrating via iframes, enhancing user interactions with a comprehensive knowledge of Restful Services. Migrated JDA WMS backend code (MOCA) to Java with Spring Boot, incorporating single-token authentication methodologies and aligning with Restful Services to facilitate seamless operation of React screens."
-      },
-      {
-        "company": "RAM Innovative Infotech",
-        "title": "Internship",
-        "years": "Oct 2022 - Dec 2022",
-        "description": "Contributed to FlowScript.AI by developing using NodeJS and ReactTS, reducing complexity in web app creation via intuitive English prompts while maintaining a strong understanding of the project scope and alignments with business needs. Onboarded over 1,000 users to the pre-launch platform, showcasing effective stakeholder collaboration."
-      }
-    ],
-    "skills": [
-      {
-        "name": "Javascript",
-        "level": "78%"
-      },
-      {
-        "name": "Java",
-        "level": "70%"
-      },
-      {
-        "name": "Python",
-        "level": "50%"
-      },
-      {
-        "name": "React Js",
-        "level": "75%"
-      },
-      {
-        "name": "React Native",
-        "level": "65%"
-      },
-      {
-        "name": "Angular",
-        "level": "60%"
-      },
-      {
-        "name": "Spring Boot",
-        "level": "75%"
-      },
-      {
-        "name": "Node Js",
-        "level": "75%"
-      },
-      {
-        "name": "Databases",
-        "level": "65%"
-      },
-      {
-        "name": "AWS",
-        "level": "50%"
-      },
-      {
-        "name": "Docker",
-        "level": "65%"
-      },
-      {
-        "name": "Html & Css",
-        "level": "75%"
-      }
-    ]
+  "Certifications": {
+
   },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "Flowscript.AI",
-        "desc": "AI platform",
-        "category": "Business App, AI Development",
-        "image": "05.jpg",
-        "url": "https://www.flowscript.ai/"
-      },
-      {
-        "title": "Simplefin",
-        "desc": "(Business App for Mobile)",
-        "category": "Business App",
-        "image": "01.jpg",
-        "url": "https://www.simplefin.in"
-      },
-      {
-        "title": "InAppBI",
-        "desc": "(Analytics Tool For Web)",
-        "category": "Web Analytics",
-        "image": "02.jpg",
-        "url": "https://www.inappbi.com/"
-      },
-      {
-        "title": "Foyr Neo",
-        "desc": "(Designer Product For Web)",
-        "category": "Web Design",
-        "image": "03.jpg",
-        "url": "https://neo.foyr.com/"
-      },
-      {
-        "title": "Quanteon Solutions",
-        "desc": "(Static Site For Web)",
-        "category": "Business Solutions",
-        "image": "04.jpg",
-        "url": "http://www.quanteonsolutions.com/"
-      }
-    ]
+  "Miscellaneous":{
+
   }
 }
